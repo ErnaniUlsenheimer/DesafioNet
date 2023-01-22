@@ -82,3 +82,4 @@ C:\Projetos\DesafioNet\DesafioNet\DesafioNet\obj\Release\DesafioNet.csproj.CoreC
 C:\Projetos\DesafioNet\DesafioNet\DesafioNet\obj\Release\DesafioNet.csproj.CopyComplete
 C:\Projetos\DesafioNet\DesafioNet\DesafioNet\obj\Release\DesafioNet.dll
 C:\Projetos\DesafioNet\DesafioNet\DesafioNet\obj\Release\DesafioNet.pdb
+C:\Projetos\DesafioNet\DesafioNet\DesafioNet\obj\Release\DesafioNet.csproj.AssemblyReference.cache
