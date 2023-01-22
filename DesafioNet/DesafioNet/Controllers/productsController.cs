@@ -26,12 +26,12 @@ namespace DesafioNet.Controllers
                 }
                 else
                 {
-                    return ResponseMessage(Request.CreateResponse(HttpStatusCode.NotFound, "Fail to find products"));
+                    return ResponseMessage(Request.CreateResponse(HttpStatusCode.NotFound, "Failure to find products"));
                 }
             }
             catch
             { 
-                return ResponseMessage(Request.CreateResponse(HttpStatusCode.NotFound, "Fail to find products"));
+                return ResponseMessage(Request.CreateResponse(HttpStatusCode.NotFound, "Failure to find products"));
             }
         }
         [HttpGet]
@@ -48,12 +48,12 @@ namespace DesafioNet.Controllers
                 }
                 else
                 {
-                    return ResponseMessage(Request.CreateResponse(HttpStatusCode.NotFound, "Fail to find product"));
+                    return ResponseMessage(Request.CreateResponse(HttpStatusCode.NotFound, "Failure to find product"));
                 }
             }
             catch
             {
-                return ResponseMessage(Request.CreateResponse(HttpStatusCode.NotFound, "Fail to find product"));
+                return ResponseMessage(Request.CreateResponse(HttpStatusCode.NotFound, "Failure to find product"));
             }
         }
 
@@ -69,12 +69,12 @@ namespace DesafioNet.Controllers
                 }
                 else
                 {
-                    return ResponseMessage(Request.CreateResponse(HttpStatusCode.NotFound, "Fail to Post product"));
+                    return ResponseMessage(Request.CreateResponse(HttpStatusCode.NotFound, "Failure to Post product"));
                 }
             }
             catch
             {
-                return ResponseMessage(Request.CreateResponse(HttpStatusCode.NotFound, "Fail to Post product"));
+                return ResponseMessage(Request.CreateResponse(HttpStatusCode.NotFound, "Failure to Post product"));
             }
         }
 
@@ -90,12 +90,12 @@ namespace DesafioNet.Controllers
                 }
                 else
                 {
-                    return ResponseMessage(Request.CreateResponse(HttpStatusCode.NotFound, "Fail to update product"));
+                    return ResponseMessage(Request.CreateResponse(HttpStatusCode.NotFound, "Failure to update product"));
                 }
             }
             catch
             {
-                return ResponseMessage(Request.CreateResponse(HttpStatusCode.NotFound, "Fail to update product"));
+                return ResponseMessage(Request.CreateResponse(HttpStatusCode.NotFound, "Failure to update product"));
             }
         }
     }

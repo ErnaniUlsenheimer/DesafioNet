@@ -41,9 +41,10 @@ namespace DesafioNet.Models
                 sqladapter.SelectCommand = sqlcomand;
                 dsLocal = new DataSet();
                 sqladapter.Fill(dsLocal);
-                retorno = new List<Product>();
+               
                 if (dsLocal != null && dsLocal.Tables != null && dsLocal.Tables.Count > 0 && dsLocal.Tables[0].Rows != null && dsLocal.Tables[0].Rows.Count > 0)
-                {   
+                {
+                    retorno = new List<Product>();
                     for (int i = 0; i < dsLocal.Tables[0].Rows.Count; i++)
                     {
                         Product aux = new Product();
